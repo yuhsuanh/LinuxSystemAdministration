@@ -1,0 +1,6 @@
+Install VM mechine
+	VMWARE workstation / VMWARE Fusion / Virtualbox
+
+Download Ubuntu Server
+	https://ubuntu.com/download/server
+	select "Option 2 - Manual Server Installation" in order to download the iso image.

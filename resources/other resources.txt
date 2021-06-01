@@ -1,0 +1,8 @@
+Linux Journey
+	https://linuxjourney.com/
+Linux Package Management
+	https://www.linode.com/docs/guides/linux-package-management/
+UNIX SHELL Quote Tutorial
+	https://www.grymoire.com/Unix/Quote.html 
+Ubuntu Server Guide
+	https://ubuntu.com/server/docs

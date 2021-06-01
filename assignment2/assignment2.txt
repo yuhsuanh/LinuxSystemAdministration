@@ -1,0 +1,13 @@
+Question 1:
+	Answer:
+		mv [a-c]* dir_abc/
+Question 2:
+	Answer:
+		mkdir numbers
+		cp [1-3]* numbers/
+Question 3:
+	Answer:
+		rm 12*
+Question 4:
+	Answer:
+		rm -r numbers/
