@@ -1,0 +1,32 @@
+  *-network:0
+       description: Ethernet interface
+       product: 82545EM Gigabit Ethernet Controller (Copper)
+       vendor: Intel Corporation
+       physical id: 1
+       bus info: pci@0000:02:01.0
+       logical name: ens33
+       version: 01
+       serial: 00:0c:29:54:72:9d
+       size: 1Gbit/s
+       capacity: 1Gbit/s
+       width: 64 bits
+       clock: 66MHz
+       capabilities: pm pcix bus_master cap_list rom ethernet physical logical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+       configuration: autonegotiation=on broadcast=yes driver=e1000 driverversion=7.3.21-k8-NAPI duplex=full ip=192.168.174.132 latency=0 link=yes mingnt=255 multicast=yes port=twisted pair speed=1Gbit/s
+       resources: irq:19 memory:fc000000-fc01ffff memory:fc040000-fc04ffff ioport:1080(size=64) memory:fc070000-fc07ffff
+  *-network:1
+       description: Ethernet interface
+       product: 82545EM Gigabit Ethernet Controller (Copper)
+       vendor: Intel Corporation
+       physical id: 2
+       bus info: pci@0000:02:02.0
+       logical name: ens34
+       version: 01
+       serial: 00:0c:29:54:72:a7
+       size: 1Gbit/s
+       capacity: 1Gbit/s
+       width: 64 bits
+       clock: 66MHz
+       capabilities: pm pcix bus_master cap_list rom ethernet physical logical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+       configuration: autonegotiation=on broadcast=yes driver=e1000 driverversion=7.3.21-k8-NAPI duplex=full ip=192.168.200.2 latency=0 link=yes mingnt=255 multicast=yes port=twisted pair speed=1Gbit/s
+       resources: irq:16 memory:fc020000-fc03ffff memory:fc050000-fc05ffff ioport:1040(size=64) memory:fc080000-fc08ffff
