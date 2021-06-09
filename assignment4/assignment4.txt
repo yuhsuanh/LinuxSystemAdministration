@@ -1,0 +1,26 @@
+mysqldump -help //get information
+
+
+Question 2:
+
+//Dump all database via root account
+sudo mysqldump -uroot -p --all-databases > all_db_backup.sql
+
+
+Question 3:
+
+//Import from all_db_backup.sql file
+sudo mysqlimport -uroot -p < all_db_backup.sql
+
+
+Question 4:
+
+//Backup the specific database that was created for your remote user
+sudo mysqldump -u yuhsuan -p COMP2018 > COMP2018_backup.sql
+
+mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privilege(s) for this operation' when trying to dump tablespaces
+
+
+//Users who do not need to dump tablespace information can work around this requirement
+
+sudo mysqldump -u yuhsuan -p --no-tablespaces COMP2018 > COMP2018_backup.sql
