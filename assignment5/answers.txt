@@ -1,0 +1,13 @@
+Ans 1:
+	sudo addgroup developers
+Ans 2:
+	sudo mkdir -p /projects/bigdeal
+Ans 3:
+	sudo chown -R root:developers /projects
+Ans 4:
+	sudo chmod -R 2770 /projects/bigdeal
+Ans 5:
+	total 4
+	drwxrws--- 2 root developers 4096 Jul  6 18:03 incoming
+
+
