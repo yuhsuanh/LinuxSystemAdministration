@@ -7,7 +7,9 @@ Ans 3:
 Ans 4:
 	sudo chmod -R 2770 /projects/bigdeal
 Ans 5:
-	total 4
-	drwxrws--- 2 root developers 4096 Jul  6 18:03 incoming
+	drwxrws--- 3 root  developers 4096 Jul  6 18:19 .
+	drwxr-xr-x 3 root  developers 4096 Jul  6 17:40 ..
+	drwxrws--- 2 root  developers 4096 Jul  6 18:17 incoming
+
 
 
