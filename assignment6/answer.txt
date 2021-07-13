@@ -1,0 +1,11 @@
+Questuin 1:
+	-rw------- 1 yuhsuan yuhsuan 2655 Jul 13 17:38 id_rsa
+	id_rsa (Private Key): 
+		File Mod: rw------- (500)
+		Owner: rw- (5)
+		Group: --- (0)
+		Other: --- (0)
+
+Question 2:
+	The command 'passwd -l user' will lock the password of the user account. This option disables a password by changing it to a value that matches no possible encrypted value. So that only root has to unlock the account before this person can log in and use the account again. Therefore, if you use 'sudo passwd -l user', it will lock the password of the root account. You have to recover the root account. 
+
