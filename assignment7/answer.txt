@@ -1,0 +1,39 @@
+Q1: By examining the script what is the very first command that the script issues in bash?
+A1: 
+		#!/usr/bin/env bash
+		It tells the shell what program to interpret the script with, when executed.
+
+
+Q2: What are the 4 undocumented flags that you can invoke in bash when using this script?
+A2:
+		--reconfigure
+		--unattended
+		--disable-install-webserver
+
+
+Q3: How do you run the script without installing lighttpd webserver if you have another webserver already installed?
+A3:
+		sudo bash basic-install.sh --disable-install-webser
+
+
+Q4: How does the script detect if it is running in a Debian distribution?
+A4:
+		If apt-get is installed, it means it's part of the Debian family.
+
+
+Q5: What pages and in what chapters, are added to the man pages in your OS?
+A5: 
+		man5
+			pihole-FTL.conf.5
+		man8
+			pihole.8
+			pihole-FTL.8
+
+Q6: Read the man pages for pihole. What command can you type if you want to set or change the webUI password?
+A6:
+		$ pihole -a -p
+
+
+Q7: According to man pages for pihole, what command uninstalls pihole from your system?
+A7:	
+		$ pihole uninstall 
