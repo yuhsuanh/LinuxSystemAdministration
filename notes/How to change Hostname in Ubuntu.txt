@@ -1,0 +1,9 @@
+How to change Hostname in Ubuntu
+
+
+Changing Hostname
+sudo hostnamectl set-hostname <new_hostname>
+ 
+sudo nano /etc/cloud/cloud.cfg
+Change from "preserve_hostname: false" to "preserve_hostname: true"
+Now your hostname should stay to what you have set it, even after a reboot.

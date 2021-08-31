@@ -1,0 +1,4 @@
+NetPlan .YAML troubleshooting
+
+If you are getting errors with your yaml file while doing "netplan try" without an explanation try this command:
+sudo netplan --debug generate

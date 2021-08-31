@@ -1,0 +1,15 @@
+Enabling SSH access
+
+Setting up SSH Server in your Linux VM
+In case you did not select the checkbox to install SSH server during the installation of Ubuntu Server in your VM, here is the procedure to install and configure SSH server.
+
+sudo apt-get install openssh-server
+sudo nano /etc/ssh/sshd_config   # change default ports or add other settings if needed
+sudo ufw allow 22    #  Allow port 22 (or other port if changed the configuration) through firewall (if enabled)
+sudo service sshd restart
+How to SSH to a server from your local machine
+
+from terminal using username and password:
+ssh [username]@[ip_address]
+From Terminal using RSA key:
+ssh -i [rsa_key] [username]@[ip_address]

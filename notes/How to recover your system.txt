@@ -1,0 +1,10 @@
+How to recover your system (example, lost root password)
+
+Root account recovery from local machine
+Instructions: https://askubuntu.com/questions/24006/how-do-i-reset-a-lost-administrative-password
+Reboot the machine and hold down the "Shift" key during boot. The boot menu will show.
+Select advanced boot, and select your kernel version in "recovery mode"
+From the "recovery" menu select "root - Drop to root shell prompt"
+Mount the disk with read and write permissions: mount -o remount,rw /
+Use passwd commands or any other commands to reset your password (passwd <user>)
+
